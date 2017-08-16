@@ -84,3 +84,13 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+  
+  collections:
+    - applications
+    
+  defaults
+    -scope:
+      path: ""
+      type: applications
+    values:
+      layout: page

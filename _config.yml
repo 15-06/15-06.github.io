@@ -88,8 +88,8 @@ exclude:
   collections:
     - applications
     
-  defaults
-    -scope:
+defaults:
+  - scope:
       path: ""
       type: applications
     values:
